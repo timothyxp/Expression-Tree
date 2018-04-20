@@ -41,6 +41,10 @@
   <PropertyGroup>
     <NuGetPackageImportStamp>ef5c2acb</NuGetPackageImportStamp>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\SFML-Visual Studio-2015RC-64\SFML-Visual_Studio2015RCx64\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\SFML-Visual Studio-2015RC-64\SFML-Visual_Studio2015RCx64\lib\static-std;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
